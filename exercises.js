@@ -325,7 +325,7 @@ function verifyDrinkingAge (age) {
 	return age >= 21;
 }
 var canDrink;
-canDrink = verifyDrinkingAge (10);
+canDrink = verifyDrinkingAge (29);
 console.log ( canDrink );
 
 /**
@@ -334,16 +334,19 @@ console.log ( canDrink );
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
 
-function throwParty (age){
-  if  (age >= 21) {
+function throwParty ( ){
+  if  (canDrink === true) {
     return 'Chee Hoo! We going to da party!';
-  } else {
+  } 
+  else {
     return 'Meh, see you at Starbucks.';
   }
  }
 
-var canParty = throwParty ( 22 );
+var canParty = throwParty ( );
 console.log (canParty);
+
+
 
 
 
