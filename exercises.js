@@ -305,7 +305,7 @@ console.log (allCaps ("belive you can and you're halfway there."));
 
 
 function capFirstLetter (string) {
-    return string.charAt(0).toUpperCase('string') + string.slice(1);
+    return string.charAt(0).toUpperCase( ) + string.slice(1);
 }
 console.log (capFirstLetter('this will cap one letter '));
 
